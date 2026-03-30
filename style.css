@@ -77,3 +77,15 @@ h2 {
     margin: auto;
     line-height: 1.6;
 }
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease;
+}
+
+/* When visible */
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}

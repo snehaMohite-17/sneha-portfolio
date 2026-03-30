@@ -49,3 +49,31 @@ button:hover {
     background: #bfa181;
     color: white;
 }
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sections styling */
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    background: #f8f5f0;
+}
+
+.section:nth-child(even) {
+    background: #fdfaf6;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #bfa181;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #6e6e6e;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}

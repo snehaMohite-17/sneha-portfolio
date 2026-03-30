@@ -1,12 +1,51 @@
+/* Import soft elegant font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300&display=swap');
+
 body {
-    background-color: #fdfaf6;
-    color: #5a5a5a;
-    font-family: 'Georgia', serif;
-    text-align: center;
-    padding: 50px;
+    margin: 0;
+    padding: 0;
+    background: #fdfaf6; /* soft cream */
+    font-family: 'Inter', sans-serif;
 }
 
+/* Center everything */
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Name styling */
 h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #bfa181; /* light gold */
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    color: #7a7a7a;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 25px;
+    border: 1px solid #bfa181;
+    background: transparent;
     color: #bfa181;
-    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background: #bfa181;
+    color: white;
 }
